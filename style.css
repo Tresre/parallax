@@ -5,10 +5,6 @@ body, html {
   color: #777;
 }
 
-marquee {
-	width: 25%;
-}
-
 .img-1, .img-2, .img-3 {
   position: relative;
   opacity: 0.8;
@@ -81,6 +77,10 @@ marquee {
   font: 20px "Source Code Pro";
   color: #111;
   text-align:center;
+}
+
+marquee {
+  width: 25%;
 }
 
 @media only screen and (max-device-width: 1024px) {
