@@ -5,6 +5,10 @@ body, html {
   color: #777;
 }
 
+marquee {
+	width: 25%;
+}
+
 .img-1, .img-2, .img-3 {
   position: relative;
   opacity: 0.8;
