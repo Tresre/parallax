@@ -48,7 +48,7 @@ body, html {
 
 @media only screen and (max-device-width: 1024px) {
   .boxg, .boxw {
-    text-align: left;
+    text-align: center;
   }
 }
 
@@ -91,6 +91,6 @@ marquee {
 
 @media only screen and (max-device-width: 1024px) {
   .img-1, .img-2, .img-3 {
-    background-attachment: scroll;
+    
   }
 }
