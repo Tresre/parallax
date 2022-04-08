@@ -31,19 +31,25 @@ body, html {
   
 .boxw {
   color: #777777;
-  background-color:white;
-  text-align:center;
-  padding:50px 80px;
+  background-color: white;
+  text-align: center;
+  padding: 50px 80px;
   text-align: justify;
 }
   
 .boxg {
-  color:#fff;
-  background-color:#1e1e1e;
-  text-align:center;
-  padding:50px 80px;
+  color: #fff;
+  background-color: #1e1e1e;
+  text-align: center;
+  padding: 50px 80px;
   text-align: justify;
-  position:relative;
+  position: relative;
+}
+
+@media only screen and (max-device-width: 1024px) {
+  .boxg, .boxw {
+    text-align: left;
+  }
 }
 
 .header {
